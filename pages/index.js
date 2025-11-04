@@ -10,7 +10,7 @@ export default function Home() {
             Add School
           </button>
         </Link>
-        <Link href="/showschool">
+        <Link href="/showschools">
           <button style={{ padding: '1rem 2rem', fontSize: '1.1rem', cursor: 'pointer' }}>
             View Schools
           </button>
