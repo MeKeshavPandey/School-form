@@ -22,10 +22,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/addschool": [
+    "/showschools": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/addschool.js"
+      "static/chunks/pages/showschools.js"
     ]
   },
   "ampFirstPages": []
