@@ -1,6 +1,14 @@
 import pool from '../../lib/db';
 import upload from '../../lib/multer';
 import { runMiddleware } from '../../lib/middleware';
+console.log("DB connection config:", {
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD ? "****" : "(empty)",
+  database: process.env.DB_NAME,
+  port: process.env.DB_PORT,
+});
+
 
 export const config = {
   api: {
