@@ -15,7 +15,8 @@ export default async function handler(req, res) {
       await runMiddleware(req, res, upload.single('image'));
 
       const { name, address, city, state, contact, email } = req.body;
-      const image = req.file ? `/schoolImages/${req.file.filename}` : null;
+      const image = null; // Temporarily disable image saving
+
 
       // Validate required fields
       if (!name || !address || !city || !state || !contact || !email) {
