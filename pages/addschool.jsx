@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
-import styles from '../styles/AddSchool.module.css';
+import styles from '../styles/addschool.module.css';
 
 export default function AddSchool() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();

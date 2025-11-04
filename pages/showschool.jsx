@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import styles from '../styles/ShowSchools.module.css';
+import styles from '../styles/showschools.module.css';
 
 export default function ShowSchools() {
   const [schools, setSchools] = useState([]);
